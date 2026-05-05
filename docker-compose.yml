@@ -1,0 +1,6 @@
+services:
+  ms-multilingual:
+    build: .
+    ports:
+      - "5590:5590"
+    restart: unless-stopped
